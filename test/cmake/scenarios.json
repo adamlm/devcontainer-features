@@ -1,0 +1,19 @@
+{
+  "install_3_27_4": {
+    "image": "ubuntu:jammy",
+    "features": {
+      "cmake": {
+        "version": "3.27.4"
+      }
+    }
+  },
+
+  "install_3_26_5": {
+    "image": "ubuntu:jammy",
+    "features": {
+      "cmake": {
+        "version": "3.26.5"
+      }
+    }
+  }
+}

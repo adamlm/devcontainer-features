@@ -1,0 +1,17 @@
+{
+  "id": "cmake",
+  "version": "0.1.0",
+  "name": "CMake",
+  "description": "Install an up-to-date version of CMake. Uses the official pre-compiled binaries from the CMake website.",
+  "documentationURL": "https://github.com/adamlm/devcontainer-features/tree/main/src/cmake",
+  "licenseURL": "https://github.com/adamlm/devcontainer-features/tree/main/LICENSE.md",
+  "options": {
+    "version": {
+      "type": "string",
+      "proposals": ["3.27.4"],
+      "default": "3.27.4",
+      "description": "Select or enter a CMake version."
+    }
+  },
+  "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
+}
