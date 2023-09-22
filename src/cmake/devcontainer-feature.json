@@ -1,6 +1,6 @@
 {
   "id": "cmake",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "name": "CMake",
   "description": "Install an up-to-date version of CMake. Uses the official pre-compiled binaries from the CMake website.",
   "documentationURL": "https://github.com/adamlm/devcontainer-features/tree/main/src/cmake",
