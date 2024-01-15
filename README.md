@@ -8,6 +8,7 @@ Each Feature resides in its own directory under the `src/` directory. For more i
 see the `README.md` file in the associated sub-directory. This repo contains the follow Features:
 
 - CMake
+- ROS 2
 
 ## Usage
 
