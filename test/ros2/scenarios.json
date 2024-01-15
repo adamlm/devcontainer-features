@@ -1,0 +1,19 @@
+{
+    "install_foxy": {
+      "image": "ubuntu:focal",
+      "features": {
+        "ros2": {
+          "version": "foxy"
+        }
+      }
+    },
+
+    "install_humble": {
+      "image": "ubuntu:jammy",
+      "features": {
+        "ros2": {
+          "version": "humble"
+        }
+      }
+    }
+  }

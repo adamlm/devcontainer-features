@@ -1,0 +1,21 @@
+{
+    "id": "ros2",
+    "version": "0.1.0",
+    "name": "ROS 2",
+    "description": "Robot Operating System (ROS) 2",
+    "documentationURL": "https://github.com/adamlm/devcontainer-features/tree/main/src/ros2",
+    "licenseURL": "https://github.com/adamlm/devcontainer-features/tree/main/LICENSE.md",
+    "options": {
+      "version": {
+        "type": "string",
+        "proposals": [
+            "foxy",
+            "galactic",
+            "humble",
+            "iron"],
+        "default": "humble",
+        "description": "Select or enter a ROS 2 release."
+      }
+    },
+    "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
+  }
