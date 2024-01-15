@@ -22,7 +22,7 @@ jobs:
           - features: ros2
             baseImage: ubuntu:jammy
           - features: ros2
-            baseImage: mcr.microsoft.com/devcontainers/base:ubuntu-jammy
+            baseImage: mcr.microsoft.com/devcontainers/base:ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
 
